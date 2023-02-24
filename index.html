@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="./sha256.js" defer></script>
+    <link rel="stylesheet" href="./sha.css">
+</head>
+<body>
+ <h1><center>SHA-256</center></h1>
+        <div class="container">
+            <div class = "img">
+                <img class = "change" src="./sha-256.png" width="350px" height="300px">
+            </div>
+            <div class = "hash">
+                <form class="sha256" onsubmit="return false">
+                    <fieldset class = "field">
+                    <div class = "userdata">
+                        Input:&nbsp;<input type = 'text' class="inputdata" placeholder = "Enter data">
+                    </div><br>
+                    <div class = "btns">
+                        <input type = "submit" value = "Submit" onclick="Submit()">
+                        <input type = "reset" value = "Clear" onclick = "Reset()">
+                    </div><br>
+                    <hr>
+                    <div>
+                        <label for = "outputdata">Output:&nbsp;<br></label>
+                        <textarea name = "optext" rows="4" cols="50" class="output"></textarea>
+                    </div>
+                </fieldset>
+                </form>
+            </div>
+        
+    
+
+        </div>
+       
+
+</html>

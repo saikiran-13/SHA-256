@@ -1,0 +1,77 @@
+body{
+    background-color: bisque;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex:1;
+}
+.field{
+    position: relative;
+    margin:auto;
+    margin-top:10%;
+    cursor:pointer;
+    background-color: aliceblue;
+    box-sizing: 0px 0px 5px rgba(0,0,0,0.3);
+    background-repeat: no-repeat;
+    width: 50%;
+    padding:1rem;
+    align-items: center;
+    justify-content: center;
+    min-width: fit-content;
+    min-height: 40vh;
+    border: 5px solid gainsboro;
+    border-radius: 5px;
+}
+.field div{
+    position: relative;
+    display: flex;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    top:40%;
+
+}
+.img{
+display: flex;
+flex:0.4;
+}
+input[type=submit]{
+    width: 20%;
+    margin-left: 10px;
+    padding:5px;
+    outline:none;
+    border:none;
+    font-family:'Fjalla One', sans-serif;
+    font-size: medium;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+    background-color:darksalmon;
+    cursor: pointer;
+}
+input[type=reset]{
+    width: 20%;
+    margin-left: 10px;
+    padding:5px;
+    outline:none;
+    border:none;
+    font-family:'Fjalla One', sans-serif;
+    font-size: medium;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+    background-color: cornsilk;
+    cursor: pointer;
+}
+.hash{
+display: flex;
+align-items: center;
+justify-content: center;
+padding-bottom: 50px;
+flex:0.6;
+}
+.userdata{
+    margin-top:5% !important;
+}
+input[type=text]{
+    margin:0px 2%;
+    box-shadow:0px 5px 5px rgba(0,0,0,0.3);
+}
